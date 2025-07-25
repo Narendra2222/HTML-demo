@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    </head>
+    <style>
+        .container{
+            width:300px;
+            margin:auto;
+            background-color: aliceblue;
+            padding-left:10px;
+            border-bottom:2px solid black;
+            border-top:2px solid black;
+        }
+        .email{
+            border:0;
+            height:20px;
+            border-bottom:2px solid black;
+        }
+        .password{
+            border:0;
+            height:20px;
+            border-bottom:2px solid black;
+        }
+        #submit{
+            border:0;
+            height:10px;
+            padding-bottom:30px;
+        }
+    </style>
+    <div class="container">
+        <div class="heading">
+        <h1>Login details</h1>
+    </div>
+    <div class="main">
+        <form method="POST" action="" enctype="multipart/form-data">
+            <input type="email" name="email" class="email" id="email" placeholder="Email" required><br><br>
+            <input type="password" name="password" class="password" id="password" placeholder="Password" required><br><br>
+            <input type="submit" name="submit"id="submit">
+        </form>
+
+    </div>
+    </div>
+</html>
